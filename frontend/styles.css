@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#heading-task1 {
+    /* display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+    padding: 5px;
+
+
+    margin: 50px; */
+    /*  */
+
+
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    margin: 11px auto;
+}
+
+#heading-task1 span {
+    color: #3704ee;
+}
+
+#table-task1,
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.heading-task1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-task1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hidden-task1 {
+    display: none;
+}
+
+
+/* BUTTON */
+/* .button-1-task1 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+} */
+
+/* .button-1-task1:hover,
+.button-1-task1:focus {
+    background-color: #F082AC;
+} */
+
+
+.dropdown-task1 {
+    margin: 6px auto;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+#select-task1 {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    padding: 5px;
+    margin: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+.dropdown-task1 button:hover {
+    color: azure;
+    background: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #3704ee;
+}
+
+#hide-show-parent-div {
+
+    margin: 6px auto;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+#table-task1 {
+    border-radius: 4px;
+    padding: 8px;
+}
+
+th {
+    padding: 20px;
+}
+
+tr {
+    padding: 10px;
+    margin: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+#column-name-task1 {
+    font-weight: 250;
+    justify-content: center;
+}
+
+
+
+.footer-task1 {
+    text-align: center;
+    font-weight: 200;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#heart-task1 {
+    color: #b90047
+}
+
+#table-task1 {
+    margin-top: 10px;
+    margin-left: 180px;
+    padding: 10px;
+
+}
+
+.button-1-task1 {
+    /* background-color: #393647; */
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 85px;
+    font-size: medium;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+
+.row-delete-button {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.row-update-button {
+    display: flex;
+    margin-left: 12px;
+}
+
+.actions-td {
+    /* display: inline; */
+    width: 55px;
+}
